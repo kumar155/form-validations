@@ -7,6 +7,7 @@ pipeline {
         // This state is telling Jenkins to checkout the source code from the source control management system.
         stage('Checkout') {
             steps {
+                git 'https://github.com/kumar155/form-validations.git'
                 checkout scm
             }
         }
