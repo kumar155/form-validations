@@ -1,6 +1,8 @@
 pipeline {
     // Telling Jenkins to run the pipeline on any available agent.
     agent any
+    
+    tools {nodejs "node"}
 
     // This is the pipeline. It is a series of stages that Jenkins will run.
     stages {
