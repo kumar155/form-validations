@@ -8,7 +8,6 @@ pipeline {
         stage('Checkout') {
             steps {
                 git 'https://github.com/kumar155/form-validations.git'
-                checkout scm
             }
         }
         
